@@ -1,0 +1,70 @@
+From f41ec647bd5e422d07f3c9c02d50e11f7be9d061 Mon Sep 17 00:00:00 2001
+From: GoodnessJames <akomagoodness97@gmail.com>
+Date: Sat, 14 Oct 2023 07:20:26 +0100
+Subject: [PATCH 1/3] Update method 1
+
+---
+ file1 | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/file1 b/file1
+index bf96b04..cf59913 100644
+--- a/file1
++++ b/file1
+@@ -1,4 +1,7 @@
+ This is done to test patch
+ Method1
++Text for method1
++
+ method2
++
+ method3
+-- 
+2.25.1
+
+
+From bc8d6bcf0686809234f9783e700246b254da3d90 Mon Sep 17 00:00:00 2001
+From: GoodnessJames <akomagoodness97@gmail.com>
+Date: Sat, 14 Oct 2023 07:20:57 +0100
+Subject: [PATCH 2/3] Update method 2
+
+---
+ file1 | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/file1 b/file1
+index cf59913..0a98098 100644
+--- a/file1
++++ b/file1
+@@ -3,5 +3,6 @@ Method1
+ Text for method1
+ 
+ method2
++Text for method 2
+ 
+ method3
+-- 
+2.25.1
+
+
+From 603947e97b8170f96c4a95a86dd604e627ae3c00 Mon Sep 17 00:00:00 2001
+From: GoodnessJames <akomagoodness97@gmail.com>
+Date: Sat, 14 Oct 2023 07:23:04 +0100
+Subject: [PATCH 3/3] Update method 3
+
+---
+ file1 | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/file1 b/file1
+index 0a98098..488844f 100644
+--- a/file1
++++ b/file1
+@@ -6,3 +6,4 @@ method2
+ Text for method 2
+ 
+ method3
++Text for method 3
+-- 
+2.25.1
+
